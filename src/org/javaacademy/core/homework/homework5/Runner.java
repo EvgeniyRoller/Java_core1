@@ -33,7 +33,7 @@ public class Runner {
                     String convertedMoney = fields[MONEY_FIELD_INDEX].replace(",", ".");
                     BigDecimal donation = new BigDecimal(convertedMoney);
                     System.out.println(donation);
-
+                    System.out.println(" Hello ");
                 }
             }
 
